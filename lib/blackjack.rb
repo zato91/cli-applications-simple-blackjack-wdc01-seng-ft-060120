@@ -40,6 +40,9 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  initial_round
+  hit?
 end
 
 def invalid_command
@@ -53,6 +56,9 @@ end
 def runner
   # code runner here
   welcome method
+  initial_round
+  hit?
+  if car
   
 end
     
