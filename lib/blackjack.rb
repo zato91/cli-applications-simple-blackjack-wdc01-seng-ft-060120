@@ -64,7 +64,8 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
+  ir = initial_round
+  while ir < 21 
   
 end
     
