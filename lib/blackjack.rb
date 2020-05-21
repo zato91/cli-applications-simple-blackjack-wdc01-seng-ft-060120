@@ -41,10 +41,10 @@ end
 def hit?(all_card)
   # code hit? here
   prompt_user
-  x = get_user_input
-   if x == "h"
+   get_user_input
+   if get_user_input == "h"
     all_card += deal_card
-    elsif x == "s"
+    elsif get_user_input == "s"
     all_card
   else 
     invalid_command
