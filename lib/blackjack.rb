@@ -66,8 +66,8 @@ def runner
   welcome
   ir = initial_round
   while ir < 21 
-  ir = hit?(ir)
-  display_card_total(ir)
+    ir = hit?(ir)
+    display_card_total(ir)
   end 
   end_game(ir)
   
