@@ -52,5 +52,7 @@ end
 
 def runner
   # code runner here
+  welcome method
+  
 end
     
