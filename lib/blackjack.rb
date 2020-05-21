@@ -62,10 +62,6 @@ end
 
 def runner
   # code runner here
-  welcome method
-  initial_round
-  hit?
-  if car
   
 end
     
